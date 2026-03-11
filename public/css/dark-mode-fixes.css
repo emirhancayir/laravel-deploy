@@ -1,0 +1,640 @@
+/* ===================================
+   Dark Mode Düzeltmeleri - Global
+   =================================== */
+
+/* Genel Metin Renkleri - En Güçlü Kurallar */
+[data-theme="dark"] {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] body {
+    background: #0f0f1e !important;
+    color: #e0e0e0 !important;
+}
+
+/* Tüm Metin Elementleri */
+[data-theme="dark"] *:not(i):not(.fa):not(.fas):not(.far):not(.fab) {
+    color: inherit;
+}
+
+[data-theme="dark"] div,
+[data-theme="dark"] span,
+[data-theme="dark"] p,
+[data-theme="dark"] label,
+[data-theme="dark"] strong,
+[data-theme="dark"] b,
+[data-theme="dark"] em,
+[data-theme="dark"] small {
+    color: inherit !important;
+}
+
+/* Card ve Container Arka Planları */
+[data-theme="dark"] .card {
+    background: #1e1e2e !important;
+    border-color: #3a3a5a !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .card * {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .card-header {
+    background: #252541 !important;
+    border-color: #3a3a5a !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .card-body {
+    background: #1e1e2e !important;
+    color: #e0e0e0 !important;
+}
+
+/* Başlıklar - Heryerde */
+[data-theme="dark"] h1,
+[data-theme="dark"] h2,
+[data-theme="dark"] h3,
+[data-theme="dark"] h4,
+[data-theme="dark"] h5,
+[data-theme="dark"] h6 {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .card h1,
+[data-theme="dark"] .card h2,
+[data-theme="dark"] .card h3,
+[data-theme="dark"] .card h4,
+[data-theme="dark"] .card h5,
+[data-theme="dark"] .card h6 {
+    color: #e0e0e0 !important;
+}
+
+/* Linkler - Heryerde */
+[data-theme="dark"] a {
+    color: #ffa726 !important;
+}
+
+[data-theme="dark"] a:hover {
+    color: #ffb74d !important;
+}
+
+[data-theme="dark"] .text-decoration-none {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .text-decoration-none:hover {
+    color: #ffa726 !important;
+}
+
+[data-theme="dark"] .card a {
+    color: #ffa726 !important;
+}
+
+/* Text Muted - Açık Gri - Heryerde */
+[data-theme="dark"] .text-muted,
+[data-theme="dark"] small.text-muted,
+[data-theme="dark"] span.text-muted,
+[data-theme="dark"] p.text-muted,
+[data-theme="dark"] div.text-muted {
+    color: #a0a0a0 !important;
+}
+
+/* Paragraflar */
+[data-theme="dark"] p {
+    color: #a0a0a0 !important;
+}
+
+[data-theme="dark"] p strong,
+[data-theme="dark"] p b {
+    color: #e0e0e0 !important;
+}
+
+/* Sepet Özel Düzeltmeler */
+[data-theme="dark"] .sepet-item {
+    background: #1e1e2e;
+    border-color: #3a3a5a !important;
+}
+
+[data-theme="dark"] .sepet-item h6 {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .sepet-item a {
+    color: #ffa726;
+}
+
+[data-theme="dark"] .sepet-item a:hover {
+    color: #ffb74d;
+}
+
+[data-theme="dark"] .sepet-item .text-muted {
+    color: #a0a0a0 !important;
+}
+
+/* Badge */
+[data-theme="dark"] .badge {
+    color: #fff;
+}
+
+[data-theme="dark"] .badge.bg-success {
+    background-color: #10b981 !important;
+}
+
+/* Border Renkleri */
+[data-theme="dark"] .border-bottom {
+    border-color: #3a3a5a !important;
+}
+
+/* Alert */
+[data-theme="dark"] .alert {
+    background: #252541;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .alert-success {
+    background: #1e4235;
+    border-color: #10b981;
+    color: #10b981;
+}
+
+[data-theme="dark"] .alert-error,
+[data-theme="dark"] .alert-danger {
+    background: #4a1e1e;
+    border-color: #ef4444;
+    color: #ef4444;
+}
+
+/* Form Elementleri */
+[data-theme="dark"] input,
+[data-theme="dark"] textarea,
+[data-theme="dark"] select {
+    background: #252541;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] input::placeholder,
+[data-theme="dark"] textarea::placeholder {
+    color: #6b6b8b;
+}
+
+[data-theme="dark"] input:focus,
+[data-theme="dark"] textarea:focus,
+[data-theme="dark"] select:focus {
+    background: #2d2d44;
+    border-color: #ff9900;
+    color: #e0e0e0;
+}
+
+/* Button Outline */
+[data-theme="dark"] .btn-outline {
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .btn-outline:hover {
+    background: #252541;
+    border-color: #ff9900;
+}
+
+[data-theme="dark"] .btn-outline-danger {
+    border-color: #ef4444;
+    color: #ef4444;
+}
+
+[data-theme="dark"] .btn-outline-danger:hover {
+    background: #ef4444;
+    color: #fff;
+}
+
+/* Table */
+[data-theme="dark"] table {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .table {
+    color: #e0e0e0;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .table thead {
+    background: #252541;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .table tbody tr {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .table tbody tr:hover {
+    background: #252541;
+}
+
+/* List Group */
+[data-theme="dark"] .list-group-item {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .list-group-item:hover {
+    background: #252541;
+}
+
+/* Dropdown */
+[data-theme="dark"] .dropdown-menu {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .dropdown-item {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .dropdown-item:hover {
+    background: #252541;
+    color: #ffa726;
+}
+
+[data-theme="dark"] .dropdown-divider {
+    border-color: #3a3a5a;
+}
+
+/* Modal */
+[data-theme="dark"] .modal-content {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .modal-header {
+    background: #252541;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .modal-footer {
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .modal-body {
+    color: #e0e0e0;
+}
+
+/* Pagination */
+[data-theme="dark"] .pagination .page-link {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .pagination .page-link:hover {
+    background: #252541;
+    border-color: #ff9900;
+    color: #ffa726;
+}
+
+[data-theme="dark"] .pagination .page-item.active .page-link {
+    background: #ff9900;
+    border-color: #ff9900;
+    color: #fff;
+}
+
+/* Breadcrumb */
+[data-theme="dark"] .breadcrumb {
+    background: #1e1e2e;
+}
+
+[data-theme="dark"] .breadcrumb-item {
+    color: #a0a0a0;
+}
+
+[data-theme="dark"] .breadcrumb-item.active {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .breadcrumb-item a {
+    color: #ffa726;
+}
+
+/* Nav Tabs */
+[data-theme="dark"] .nav-tabs {
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .nav-tabs .nav-link {
+    color: #a0a0a0;
+    border-color: transparent;
+}
+
+[data-theme="dark"] .nav-tabs .nav-link:hover {
+    color: #e0e0e0;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .nav-tabs .nav-link.active {
+    background: #1e1e2e;
+    border-color: #3a3a5a #3a3a5a transparent;
+    color: #e0e0e0;
+}
+
+/* Product Card */
+[data-theme="dark"] .product-card {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .product-card:hover {
+    border-color: #ff9900;
+}
+
+[data-theme="dark"] .product-card h5,
+[data-theme="dark"] .product-card h6 {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .product-card .price {
+    color: #10b981;
+}
+
+[data-theme="dark"] .product-card .old-price {
+    color: #a0a0a0;
+}
+
+/* Ürün Detay */
+[data-theme="dark"] .product-detail {
+    background: #1e1e2e;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .product-info {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .product-description {
+    color: #a0a0a0;
+}
+
+/* Review / Yorum */
+[data-theme="dark"] .review-item {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+}
+
+[data-theme="dark"] .review-item .reviewer-name {
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .review-item .review-text {
+    color: #a0a0a0;
+}
+
+/* Chat / Mesajlaşma */
+[data-theme="dark"] .chat-list-item {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .chat-list-item:hover {
+    background: #252541;
+}
+
+[data-theme="dark"] .message-bubble {
+    background: #252541;
+    color: #e0e0e0;
+}
+
+[data-theme="dark"] .message-bubble.sent {
+    background: #ff9900;
+    color: #fff;
+}
+
+/* Profil */
+[data-theme="dark"] .profile-card {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+/* Admin Panel */
+[data-theme="dark"] .admin-sidebar {
+    background: #1a1a2e;
+    border-color: #2d2d44;
+}
+
+[data-theme="dark"] .admin-sidebar .nav-link {
+    color: #a0a0a0;
+}
+
+[data-theme="dark"] .admin-sidebar .nav-link:hover,
+[data-theme="dark"] .admin-sidebar .nav-link.active {
+    background: #252541;
+    color: #ffa726;
+}
+
+/* Stats Card */
+[data-theme="dark"] .stat-card {
+    background: #1e1e2e;
+    border-color: #3a3a5a;
+    color: #e0e0e0;
+}
+
+/* Text Colors */
+[data-theme="dark"] .text-primary {
+    color: #ffa726 !important;
+}
+
+[data-theme="dark"] .text-secondary {
+    color: #a0a0a0 !important;
+}
+
+[data-theme="dark"] .text-dark {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .text-light {
+    color: #6b6b8b !important;
+}
+
+/* Background Colors */
+[data-theme="dark"] .bg-light {
+    background: #252541 !important;
+}
+
+[data-theme="dark"] .bg-white {
+    background: #1e1e2e !important;
+}
+
+[data-theme="dark"] .bg-secondary {
+    background: #2d2d44 !important;
+}
+
+/* HR */
+[data-theme="dark"] hr {
+    border-color: #3a3a5a;
+    opacity: 1;
+}
+
+/* Scrollbar */
+[data-theme="dark"] ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-track {
+    background: #1a1a2e;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb {
+    background: #3a3a5a;
+    border-radius: 5px;
+}
+
+[data-theme="dark"] ::-webkit-scrollbar-thumb:hover {
+    background: #4a4a6a;
+}
+
+/* Loading Spinner */
+[data-theme="dark"] .spinner-border {
+    border-color: #3a3a5a;
+    border-right-color: #ffa726;
+}
+
+/* Notification Badge */
+[data-theme="dark"] .notification-count,
+[data-theme="dark"] .message-count,
+[data-theme="dark"] .cart-count {
+    background: #ef4444;
+    color: #fff;
+}
+
+/* Image Placeholder */
+[data-theme="dark"] .image-placeholder {
+    background: #252541;
+    color: #6b6b8b;
+}
+
+/* Container ve Genel Alanlar */
+[data-theme="dark"] .container,
+[data-theme="dark"] .container-fluid {
+    color: #e0e0e0 !important;
+}
+
+/* Inline Style Override için Önemli Kurallar */
+[data-theme="dark"] [style*="color: var(--text"] {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] [style*="color: var(--text-primary"] {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] [style*="color: var(--text-light"] {
+    color: #a0a0a0 !important;
+}
+
+[data-theme="dark"] [style*="color: var(--text-secondary"] {
+    color: #a0a0a0 !important;
+}
+
+/* Sohbet ve Mesajlaşma */
+[data-theme="dark"] .sohbet-container,
+[data-theme="dark"] .sohbet-sol-panel,
+[data-theme="dark"] .sohbet-sag-panel {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .sohbet-card {
+    background: #1e1e2e !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .sohbet-header {
+    background: #252541 !important;
+    border-color: #3a3a5a !important;
+}
+
+[data-theme="dark"] .sohbet-mesajlar {
+    background: #16162a !important;
+}
+
+[data-theme="dark"] .mesaj {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .mesaj.gelen {
+    background: #252541 !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .mesaj.giden {
+    background: #ff9900 !important;
+    color: #fff !important;
+}
+
+[data-theme="dark"] .mesaj-icerik {
+    color: inherit !important;
+}
+
+[data-theme="dark"] .konusma-item {
+    background: #1e1e2e !important;
+    border-color: #3a3a5a !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .konusma-item * {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .konusma-item .text-muted,
+[data-theme="dark"] .konusma-son-mesaj,
+[data-theme="dark"] .konusma-tarih {
+    color: #a0a0a0 !important;
+}
+
+/* Sepet */
+[data-theme="dark"] .sepet-item {
+    background: #1e1e2e !important;
+    border-color: #3a3a5a !important;
+}
+
+[data-theme="dark"] .sepet-item * {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .sepet-item .text-muted,
+[data-theme="dark"] .sepet-item small {
+    color: #a0a0a0 !important;
+}
+
+/* Ürün Kartı */
+[data-theme="dark"] .urun-ozet,
+[data-theme="dark"] .urun-detay,
+[data-theme="dark"] .urun-bilgi {
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .urun-ozet * {
+    color: #e0e0e0 !important;
+}
+
+/* Teklif */
+[data-theme="dark"] .teklif-bolumu,
+[data-theme="dark"] .aktif-teklif {
+    background: #252541 !important;
+    color: #e0e0e0 !important;
+}
+
+[data-theme="dark"] .teklif-bolumu *,
+[data-theme="dark"] .aktif-teklif * {
+    color: #e0e0e0 !important;
+}
+
+/* Genel Class'lar */
+[data-theme="dark"] .row,
+[data-theme="dark"] .col,
+[data-theme="dark"] [class*="col-"] {
+    color: inherit;
+}
